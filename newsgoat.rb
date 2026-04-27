@@ -1,17 +1,17 @@
 class Newsgoat < Formula
   desc "Terminal RSS/Atom feed reader"
   homepage "https://github.com/jarv/newsgoat"
-  version "3.4.2"
+  version "3.5.0"
   license "MIT"
 
   on_arm do
-    url "https://github.com/jarv/newsgoat/releases/download/v3.4.2/newsgoat-3.4.2-darwin-arm64.tar.gz"
-    sha256 "8d07580907a777ac6047bf266c832ec9f6392cfb9e1c9653aa36377e8da272b0"
+    url "https://github.com/jarv/newsgoat/releases/download/v3.5.0/newsgoat-3.5.0-darwin-arm64.tar.gz"
+    sha256 "551fdeea79f5b5f8d9ec38917f907fd352ef5815614589451d318ba641e2c998"
   end
 
   on_intel do
-    url "https://github.com/jarv/newsgoat/releases/download/v3.4.2/newsgoat-3.4.2-darwin-amd64.tar.gz"
-    sha256 "3736303a1c0fb2884dd158b4bbb3288207d9c9261f583b029cd017eb4abd909f"
+    url "https://github.com/jarv/newsgoat/releases/download/v3.5.0/newsgoat-3.5.0-darwin-amd64.tar.gz"
+    sha256 "37a2cb377ff340a306046773817e2a955a4c6d2b60aff00ac49a85ce261947fc"
   end
 
   def install
